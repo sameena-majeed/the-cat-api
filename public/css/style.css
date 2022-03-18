@@ -1,0 +1,61 @@
+body{
+    background-image: url("/cat.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;  
+}
+
+#picture{
+    padding-bottom: 5rem;
+    padding-top: 2rem;
+    color: rgb(139, 8, 8);
+    font-weight: bolder;
+}
+
+#heading{
+    text-align: center;
+    margin: 5%;
+    font-weight: bold;
+    color: #a00707;
+}
+
+#parent > * {
+    margin-right: 15px;
+}
+
+body{
+    text-align: center;
+}
+
+#previousElement:hover,
+#nextElement:hover,
+.paginateBtn:hover{
+    background-color: red;
+}
+
+.image{
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-top: 1rem;
+    border-radius: 25px;
+}
+
+#overlap{
+    margin: 30px; 
+    width: 95%;
+    height: 85vh;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+#catImages{
+    margin: 2px;
+} 
+
+#submitButton{
+ margin-left: 5rem;
+}
+
+#submitButton:hover{
+    background-color: red;
+}
